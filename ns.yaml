@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2024-10-04T13:26:30Z"
+  labels:
+    kubernetes.io/metadata.name: three-tier
+  name: three-tier
+  resourceVersion: "797106"
+  uid: 4cc6878c-cda9-4201-9b35-b06f9314bd6d
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
